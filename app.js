@@ -3,11 +3,6 @@ let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> aabfb8704e008a065e8fc04ff4386b602482d53e
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
